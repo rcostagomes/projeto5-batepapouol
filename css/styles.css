@@ -1,6 +1,6 @@
 .body {
     background-color: aqua;
-    width: 1620px;
+    width: 1920px;
     height: 1080px;
     display: flex;
     align-items: center;
@@ -53,6 +53,42 @@ margin-left: 20px;
     background-color: #E5E5E5;
 }
 
+.mensagemstatus .entrou {
+    width: 100%;
+    height: 40px;
+    background-color: #DCDCDC;
+    display: flex;
+    align-items: center;
+}
+.entrou a {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.mensagemstatus a {
+    margin-left: 10px;
+}
+.mensagemreservada {
+    width: 100%;
+    height: 63px;
+    background-color: #FFDEDE;
+
+}
+.mensagemreservada a {
+    margin-left: 10px;
+}
+.mensagem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+
+}
+.mensagem a {
+    margin-left: 10px;
+}
 
 
               /* BARRA INFERIOR */ 
