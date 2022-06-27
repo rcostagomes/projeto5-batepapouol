@@ -1,23 +1,20 @@
-
-*{box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
 
-body{ background-color:  #F3F3F3;
-  
-
-
+body {
+  background-color: #f3f3f3;
 }
 
 /* BARRA SUPERIOR */
-.top{
-     width: 100%;
-     height: 80px;
-     background-color: #FFFFFF;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     box-shadow: 0px 4px 6px 0px #0000000D;
+.top {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 6px 0px #0000000d;
 }
 
 /* Conteudo */
@@ -29,22 +26,23 @@ body{ background-color:  #F3F3F3;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top:26px;
-  background-color:  #F3F3F3;
-
+  margin-top: 26px;
+  background-color: #f3f3f3;
 }
 
 /* Alteraçoes nas caracteristicas */
 
-.hora{font-size: 14px;
-  color: #AAAAAA;
+.hora {
+  font-size: 14px;
+  color: #aaaaaa;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: flex-start;
   padding-right: 10px;
   padding-left: 5px;
 }
-.texto{font-size: 14px;
+.texto {
+  font-size: 14px;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
@@ -53,67 +51,53 @@ body{ background-color:  #F3F3F3;
   text-align: left;
 }
 
-.texto span{padding-right: 5px;
-
+.texto span {
+  padding-right: 5px;
 }
 
-
-
-
-
-/* ALL MENSAGEM CLASS */  
+/* ALL MENSAGEM CLASS */
 
 .tipo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 2px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+/* TIPOS DE MENSAGENS */
 
-
-/* TIPOS DE MENSAGENS */ 
-
-
-.login{
-    
-  background-color: #DCDCDC;
+.login {
+  background-color: #dcdcdc;
 }
-.mensagem{ background-color: #FFFFFF;
-
+.mensagem {
+  background-color: #ffffff;
 }
-.private{  
-    background-color:#FFDEDE;
+.private {
+  background-color: #ffdede;
 }
 
-/* Caixa de mensagens */ 
+/* Caixa de mensagens */
 
-.caixatexto{
+.caixatexto {
   border: none;
   outline: none;
   width: 80%;
   height: 40px;
-  resize:none;
-
+  resize: none;
 }
-
-
-
 
 /* BARRA INFERIOR */
 
-
-.footer{
-
+.footer {
   width: 100%;
   height: 80px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 4px 6px 0px #0000000D;
+  box-shadow: 0px 4px 6px 0px #0000000d;
   padding: 0px 20px 0px 20px;
 }
